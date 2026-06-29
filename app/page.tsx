@@ -6,6 +6,10 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
 
+import Certifications from "@/components/Certifications";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
     <main className="relative min-h-screen bg-[#09090B] text-white">
@@ -16,6 +20,9 @@ export default function Home() {
       <Skills />
       <Projects />
       <Education />
+      <Certifications />
+      <Contact />
+      <Footer />
     </main>
   );
 }
