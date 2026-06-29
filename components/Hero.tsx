@@ -1,30 +1,53 @@
+import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+
 export default function Hero() {
   return (
-    <section className="h-screen flex items-center justify-center">
-      <div className="text-center">
+    <section className="min-h-screen flex items-center justify-center px-6">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-        <p className="text-blue-400 uppercase tracking-[8px] mb-4">
-          Welcome To My Portfolio
-        </p>
+        {/* Left Side */}
+        <div>
+          <p className="text-blue-400 text-lg mb-3">
+            👋 Hello, I'm
+          </p>
 
-        <h1 className="text-7xl md:text-8xl font-black">
-          Piyush Kumar
-        </h1>
+          <h1 className="text-6xl md:text-7xl font-extrabold">
+            Piyush Kumar
+          </h1>
 
-        <p className="text-gray-400 text-2xl mt-6">
-          Computer Science Student • Full Stack Developer • AI Enthusiast
-        </p>
+          <h2 className="text-2xl text-gray-400 mt-4">
+            Full Stack Developer • AI Enthusiast
+          </h2>
 
-        <div className="mt-10 flex justify-center gap-5">
+          <p className="text-gray-500 mt-6 leading-8">
+            Passionate about building modern web applications,
+            solving real-world problems, and exploring AI.
+          </p>
 
-          <button className="bg-blue-600 hover:bg-blue-700 px-7 py-4 rounded-xl font-semibold transition">
-            View Projects
-          </button>
+          <div className="flex gap-4 mt-8">
+            <button className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-xl font-semibold transition">
+              View Projects
+            </button>
 
-          <button className="border border-blue-500 hover:bg-blue-500 px-7 py-4 rounded-xl font-semibold transition">
-            Download Resume
-          </button>
+            <button className="border border-blue-500 px-6 py-3 rounded-xl flex items-center gap-2 hover:bg-blue-600 transition">
+              <FaDownload />
+              Resume
+            </button>
+          </div>
 
+          <div className="flex gap-5 mt-8 text-3xl">
+            <FaGithub className="cursor-pointer hover:text-blue-400 transition" />
+            <FaLinkedin className="cursor-pointer hover:text-blue-400 transition" />
+          </div>
+        </div>
+
+        {/* Right Side */}
+        <div className="flex justify-center">
+          <div className="w-80 h-80 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 p-1">
+            <div className="w-full h-full rounded-full bg-[#09090B] flex items-center justify-center text-7xl">
+              👨‍💻
+            </div>
+          </div>
         </div>
 
       </div>
