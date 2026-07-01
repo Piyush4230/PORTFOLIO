@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "3", label: "Projects" },
-  { value: "15+", label: "Technologies" },
+  { value: "3+", label: "Projects Completed" },
+  { value: "15+", label: "Technologies Learned" },
   { value: "5+", label: "Certifications" },
-  { value: "2028", label: "Graduation" },
+  { value: "2028", label: "Graduation Year" },
 ];
 
 export default function About() {
@@ -40,16 +40,25 @@ export default function About() {
             </h3>
 
             <p className="text-gray-300 leading-8">
-              I'm <span className="text-blue-400 font-semibold">Piyush Kumar</span>,
-              a Computer Science student at MAIT passionate about Full Stack
-              Development, AI, and building impactful software.
+  I'm <span className="text-blue-400 font-semibold">Piyush Kumar</span>, an
+  aspiring Software Engineer and Computer Science student at Maharaja Agrasen
+  Institute of Technology (MAIT). I am passionate about Full Stack Development,
+  Artificial Intelligence, and building scalable, user-focused web applications
+  that solve real-world problems.
 
-              <br /><br />
+  <br /><br />
 
-              I enjoy solving real-world problems, participating in hackathons,
-              learning modern technologies, and creating high-quality web
-              applications.
-            </p>
+  I enjoy transforming ideas into practical solutions by working with modern
+  technologies such as React, Next.js, Node.js, MongoDB, and Tailwind CSS.
+  I continuously improve my skills through personal projects, coding challenges,
+  and hands-on learning while exploring new technologies.
+
+  <br /><br />
+
+  My goal is to contribute to innovative software products, collaborate with
+  talented teams, and grow as a developer by building impactful applications
+  that create meaningful user experiences.
+</p>
           </motion.div>
 
           {/* Right Card */}
