@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Hi, I'm Piyush Kumar
 
-## Getting Started
+# 🌐 Personal Portfolio Website
 
-First, run the development server:
+A modern, responsive portfolio website built to showcase my projects, technical skills, and journey as an aspiring Software Engineer.
+
+## 🚀 Live Website
+
+🔗 https://portfolio-iiclnf1f2-piyushkumar753005-8215s-projects.vercel.app/
+
+---
+
+## 📖 About
+
+I am **Piyush Kumar**, an aspiring Software Engineer and Computer Science student at **Maharaja Agrasen Institute of Technology (MAIT)**.
+
+I am passionate about **Full Stack Development**, **Artificial Intelligence**, and building scalable web applications that solve real-world problems.
+
+This portfolio highlights my projects, skills, resume, and ways to connect with me.
+
+---
+
+## ✨ Features
+
+- 🎨 Modern and responsive UI
+- ⚡ Built with Next.js
+- ✨ Smooth Framer Motion animations
+- 📱 Mobile-friendly design
+- 📂 Projects showcase
+- 👨‍💻 Skills section
+- 📄 Resume download
+- 📬 Contact section
+- 🔗 GitHub & LinkedIn integration
+- 🌙 Clean glassmorphism design
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+---
+
+## 📂 Sections
+
+- Home
+- About
+- Skills
+- Projects
+- Contact
+- Resume
+
+---
+
+
+## 🚀 Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/Piyush4230/YOUR-PORTFOLIO-REPO.git
+```
+
+Go to the project directory
+
+```bash
+cd PORTFOLIO
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📬 Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📧 Email: **piyushkumar753005@gmail.com**
 
-## Learn More
+💼 LinkedIn:
+https://www.linkedin.com/in/piyushkumar4230
 
-To learn more about Next.js, take a look at the following resources:
+💻 GitHub:
+https://github.com/Piyush4230
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⭐ Support
 
-## Deploy on Vercel
+If you like this project, consider giving it a ⭐ on GitHub.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+Made with ❤️ by **Piyush Kumar**
